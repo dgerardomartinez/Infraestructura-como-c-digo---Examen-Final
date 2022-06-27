@@ -1,5 +1,3 @@
-## EJECUCIÓN DE DOS EJERCICIOS-DEVOPS
-
 ## EJERCICIO TERRAFORM
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Antes de iniciar hay que tener instalado lo siguiente en la maquina host:
