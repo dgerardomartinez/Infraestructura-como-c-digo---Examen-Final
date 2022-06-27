@@ -6,7 +6,7 @@
 
 # Clone this repository
 ```
-git clone git@github.com:dgerardomartinez/examenp1-devops.git
+git clone https://github.com/dgerardomartinez/Infraestructura-como-c-digo---Examen-Final.git
 ```
 # Token Digital Ocean y SSH KEY
 
