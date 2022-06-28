@@ -31,9 +31,8 @@ resource "digitalocean_vpc" "examenfinal" {
 resource "digitalocean_droplet" "Final" {
     image  = "centos-7-x64"
     name   = "${var.droplet_name}"
-    region = "${var.droplet_region}"
     size   = "${var.droplet_size}"
-    monitoring = "true"
+    region = "${var.droplet_region}"
     vpc_uuid = digitalocean_vpc.examenfinal.id
     ssh_keys = ["${var.droplet_ssh_key_id}"]
 
@@ -72,7 +71,6 @@ resource "digitalocean_droplet" "Final" {
      #name   = "Basedatos"
      #region = "${var.droplet_region}"
      #size   = "${var.droplet_size}"
-    #monitoring = "true"
-    #vpc_uuid = digitalocean_vpc.examenfinal.id
+     #vpc_uuid = digitalocean_vpc.examenfinal.id
     #ssh_keys = ["${var.droplet_ssh_key_id}"]
 #}
